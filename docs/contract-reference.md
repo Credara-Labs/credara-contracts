@@ -90,6 +90,8 @@ Returns a verification tuple containing proof existence, validity, revocation, e
 - `CertificateNotFound(bytes32 certificateIdHash)`
 - `CertificateAlreadyRevoked(bytes32 certificateIdHash)`
 
+See [Custom Error Reference](custom-error-reference.md) for when each error occurs and how client integrations should handle it.
+
 ## Example Verification Flow
 
 1. A holder shares an off-chain certificate package with a verifier.
